@@ -1,12 +1,12 @@
-# ToastApp
+# ToastAppAPI
 
 ### For Testing (First Time Only) -
-    git clone https://github.com/codesparts/ToastAppAPI
+    git clone https://github.com/codesparts/ToastAppAPI.git
     cd ToastAppAPI
     virtualenv env
     source env/bin/activate
     pip install -r requirements.txt
-    ./app.py`
+    ./app.py
 
 ### For Getting Recipes
 [GET] http://localhost:8000/recipes?ingredients=<ingredient_list>&page=<page_no>
