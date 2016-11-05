@@ -3,7 +3,7 @@
 ### For Testing (First Time Only) -
     git clone https://github.com/codesparts/ToastAppAPI.git
     cd ToastAppAPI
-    virtualenv env
+    virtualenv --no-site-packages env
     source env/bin/activate
     pip install -r requirements.txt
     ./app.py
